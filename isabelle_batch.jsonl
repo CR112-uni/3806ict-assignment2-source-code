@@ -1,0 +1,2 @@
+  {"goal": "(A ∧ (B ⟶ C)) ⟶ ((A ∧ B) ⟶ C)", "suite": "logic"},
+  {"goal": "(A ⟶ (B ⟶ C)) ⟶ (A ∧ B ⟶ C)", "suite": "logic"},

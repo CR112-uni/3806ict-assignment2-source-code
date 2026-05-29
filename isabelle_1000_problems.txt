@@ -1,0 +1,1000 @@
+A ⟶ A
+A ∧ B ⟶ B ∧ A
+A ∨ B ⟶ B ∨ A
+¬(A ∧ ¬A)
+A ⟶ A ∨ B
+B ⟶ A ∨ B
+¬ ¬ A ⟷ A
+(A ⟶ B) ⟶ (¬B ⟶ ¬A)
+((A ⟶ B) ⟶ A) ⟶ A
+¬(A ∨ B) ⟷ ¬A ∧ ¬B
+¬(A ∧ B) ⟷ ¬A ∨ ¬B
+(A ⟶ B) ⟷ (¬A ∨ B)
+(A ∧ B) ∧ C ⟷ A ∧ (B ∧ C)
+(A ∨ B) ∨ C ⟷ A ∨ (B ∨ C)
+A ∧ (B ∨ C) ⟷ (A ∧ B) ∨ (A ∧ C)
+A ∨ (B ∧ C) ⟷ (A ∨ B) ∧ (A ∨ C)
+(A ⟶ B) ∧ (B ⟶ C) ⟶ (A ⟶ C)
+(A ⟶ B ∧ C) ⟷ (A ⟶ B) ∧ (A ⟶ C)
+(A ∨ B ⟶ C) ⟷ (A ⟶ C) ∧ (B ⟶ C)
+¬(A ⟶ B) ⟷ A ∧ ¬B
+(A ⟷ B) ⟷ (B ⟷ A)
+A ∧ B ⟶ A
+A ∧ B ⟶ B
+¬A ⟶ A ⟶ B
+(A ⟶ C) ∧ (B ⟶ C) ⟶ (A ∧ B ⟶ C)
+(A ⟶ B) ⟶ (A ∧ C ⟶ B ∧ C)
+(A ⟶ B) ⟶ (A ∨ C ⟶ B ∨ C)
+(P ∧ Q) ∧ R ⟷ P ∧ (Q ∧ R)
+(P ∨ Q) ∨ R ⟷ P ∨ (Q ∨ R)
+P ∧ (Q ∨ R) ⟷ (P ∧ Q) ∨ (P ∧ R)
+P ∨ (Q ∧ R) ⟷ (P ∨ Q) ∧ (P ∨ R)
+(P ⟶ Q) ∧ (Q ⟶ R) ⟶ (P ⟶ R)
+(P ⟶ Q ∧ R) ⟷ (P ⟶ Q) ∧ (P ⟶ R)
+(P ∨ Q ⟶ R) ⟷ (P ⟶ R) ∧ (Q ⟶ R)
+¬(P ⟶ Q) ⟷ P ∧ ¬Q
+(P ⟷ Q) ⟷ (Q ⟷ P)
+P ∧ Q ⟶ P
+P ∧ Q ⟶ Q
+¬P ⟶ P ⟶ Q
+(P ⟶ R) ∧ (Q ⟶ R) ⟶ (P ∧ Q ⟶ R)
+(P ⟶ Q) ⟶ (P ∧ R ⟶ Q ∧ R)
+(P ⟶ Q) ⟶ (P ∨ R ⟶ Q ∨ R)
+(X ∧ Y) ∧ Z ⟷ X ∧ (Y ∧ Z)
+(X ∨ Y) ∨ Z ⟷ X ∨ (Y ∨ Z)
+X ∧ (Y ∨ Z) ⟷ (X ∧ Y) ∨ (X ∧ Z)
+X ∨ (Y ∧ Z) ⟷ (X ∨ Y) ∧ (X ∨ Z)
+(X ⟶ Y) ∧ (Y ⟶ Z) ⟶ (X ⟶ Z)
+(X ⟶ Y ∧ Z) ⟷ (X ⟶ Y) ∧ (X ⟶ Z)
+(X ∨ Y ⟶ Z) ⟷ (X ⟶ Z) ∧ (Y ⟶ Z)
+¬(X ⟶ Y) ⟷ X ∧ ¬Y
+(X ⟷ Y) ⟷ (Y ⟷ X)
+X ∧ Y ⟶ X
+X ∧ Y ⟶ Y
+¬X ⟶ X ⟶ Y
+(X ⟶ Z) ∧ (Y ⟶ Z) ⟶ (X ∧ Y ⟶ Z)
+(X ⟶ Y) ⟶ (X ∧ Z ⟶ Y ∧ Z)
+(X ⟶ Y) ⟶ (X ∨ Z ⟶ Y ∨ Z)
+(M ∧ N) ∧ K ⟷ M ∧ (N ∧ K)
+(M ∨ N) ∨ K ⟷ M ∨ (N ∨ K)
+M ∧ (N ∨ K) ⟷ (M ∧ N) ∨ (M ∧ K)
+M ∨ (N ∧ K) ⟷ (M ∨ N) ∧ (M ∨ K)
+(M ⟶ N) ∧ (N ⟶ K) ⟶ (M ⟶ K)
+(M ⟶ N ∧ K) ⟷ (M ⟶ N) ∧ (M ⟶ K)
+(M ∨ N ⟶ K) ⟷ (M ⟶ K) ∧ (N ⟶ K)
+¬(M ⟶ N) ⟷ M ∧ ¬N
+(M ⟷ N) ⟷ (N ⟷ M)
+M ∧ N ⟶ M
+M ∧ N ⟶ N
+¬M ⟶ M ⟶ N
+(M ⟶ K) ∧ (N ⟶ K) ⟶ (M ∧ N ⟶ K)
+(M ⟶ N) ⟶ (M ∧ K ⟶ N ∧ K)
+(M ⟶ N) ⟶ (M ∨ K ⟶ N ∨ K)
+(A1 ∧ A2) ∧ A3 ⟷ A1 ∧ (A2 ∧ A3)
+(A1 ∨ A2) ∨ A3 ⟷ A1 ∨ (A2 ∨ A3)
+A1 ∧ (A2 ∨ A3) ⟷ (A1 ∧ A2) ∨ (A1 ∧ A3)
+A1 ∨ (A2 ∧ A3) ⟷ (A1 ∨ A2) ∧ (A1 ∨ A3)
+(A1 ⟶ A2) ∧ (A2 ⟶ A3) ⟶ (A1 ⟶ A3)
+(A1 ⟶ A2 ∧ A3) ⟷ (A1 ⟶ A2) ∧ (A1 ⟶ A3)
+(A1 ∨ A2 ⟶ A3) ⟷ (A1 ⟶ A3) ∧ (A2 ⟶ A3)
+¬(A1 ⟶ A2) ⟷ A1 ∧ ¬A2
+(A1 ⟷ A2) ⟷ (A2 ⟷ A1)
+A1 ∧ A2 ⟶ A1
+A1 ∧ A2 ⟶ A2
+¬A1 ⟶ A1 ⟶ A2
+(A1 ⟶ A3) ∧ (A2 ⟶ A3) ⟶ (A1 ∧ A2 ⟶ A3)
+(A1 ⟶ A2) ⟶ (A1 ∧ A3 ⟶ A2 ∧ A3)
+(A1 ⟶ A2) ⟶ (A1 ∨ A3 ⟶ A2 ∨ A3)
+(B1 ∧ B2) ∧ B3 ⟷ B1 ∧ (B2 ∧ B3)
+(B1 ∨ B2) ∨ B3 ⟷ B1 ∨ (B2 ∨ B3)
+B1 ∧ (B2 ∨ B3) ⟷ (B1 ∧ B2) ∨ (B1 ∧ B3)
+B1 ∨ (B2 ∧ B3) ⟷ (B1 ∨ B2) ∧ (B1 ∨ B3)
+(B1 ⟶ B2) ∧ (B2 ⟶ B3) ⟶ (B1 ⟶ B3)
+(B1 ⟶ B2 ∧ B3) ⟷ (B1 ⟶ B2) ∧ (B1 ⟶ B3)
+(B1 ∨ B2 ⟶ B3) ⟷ (B1 ⟶ B3) ∧ (B2 ⟶ B3)
+¬(B1 ⟶ B2) ⟷ B1 ∧ ¬B2
+(B1 ⟷ B2) ⟷ (B2 ⟷ B1)
+B1 ∧ B2 ⟶ B1
+B1 ∧ B2 ⟶ B2
+¬B1 ⟶ B1 ⟶ B2
+(B1 ⟶ B3) ∧ (B2 ⟶ B3) ⟶ (B1 ∧ B2 ⟶ B3)
+(B1 ⟶ B2) ⟶ (B1 ∧ B3 ⟶ B2 ∧ B3)
+(B1 ⟶ B2) ⟶ (B1 ∨ B3 ⟶ B2 ∨ B3)
+(C1 ∧ C2) ∧ C3 ⟷ C1 ∧ (C2 ∧ C3)
+(C1 ∨ C2) ∨ C3 ⟷ C1 ∨ (C2 ∨ C3)
+C1 ∧ (C2 ∨ C3) ⟷ (C1 ∧ C2) ∨ (C1 ∧ C3)
+C1 ∨ (C2 ∧ C3) ⟷ (C1 ∨ C2) ∧ (C1 ∨ C3)
+(C1 ⟶ C2) ∧ (C2 ⟶ C3) ⟶ (C1 ⟶ C3)
+(C1 ⟶ C2 ∧ C3) ⟷ (C1 ⟶ C2) ∧ (C1 ⟶ C3)
+(C1 ∨ C2 ⟶ C3) ⟷ (C1 ⟶ C3) ∧ (C2 ⟶ C3)
+¬(C1 ⟶ C2) ⟷ C1 ∧ ¬C2
+(C1 ⟷ C2) ⟷ (C2 ⟷ C1)
+C1 ∧ C2 ⟶ C1
+C1 ∧ C2 ⟶ C2
+¬C1 ⟶ C1 ⟶ C2
+(C1 ⟶ C3) ∧ (C2 ⟶ C3) ⟶ (C1 ∧ C2 ⟶ C3)
+(C1 ⟶ C2) ⟶ (C1 ∧ C3 ⟶ C2 ∧ C3)
+(C1 ⟶ C2) ⟶ (C1 ∨ C3 ⟶ C2 ∨ C3)
+(U ∧ V) ∧ W ⟷ U ∧ (V ∧ W)
+(U ∨ V) ∨ W ⟷ U ∨ (V ∨ W)
+U ∧ (V ∨ W) ⟷ (U ∧ V) ∨ (U ∧ W)
+U ∨ (V ∧ W) ⟷ (U ∨ V) ∧ (U ∨ W)
+(U ⟶ V) ∧ (V ⟶ W) ⟶ (U ⟶ W)
+(U ⟶ V ∧ W) ⟷ (U ⟶ V) ∧ (U ⟶ W)
+(U ∨ V ⟶ W) ⟷ (U ⟶ W) ∧ (V ⟶ W)
+¬(U ⟶ V) ⟷ U ∧ ¬V
+(U ⟷ V) ⟷ (V ⟷ U)
+U ∧ V ⟶ U
+U ∧ V ⟶ V
+¬U ⟶ U ⟶ V
+(U ⟶ W) ∧ (V ⟶ W) ⟶ (U ∧ V ⟶ W)
+(U ⟶ V) ⟶ (U ∧ W ⟶ V ∧ W)
+(U ⟶ V) ⟶ (U ∨ W ⟶ V ∨ W)
+(∀x. P x) ⟶ (∃x. P x)
+(¬ (∃x. P x)) ⟷ (∀x. ¬ P x)
+(¬ (∀x. P x)) ⟷ (∃x. ¬ P x)
+(∀x. P x) ∨ (∃x. ¬ P x)
+(∀x. P x) ⟷ ¬ (∃x. ¬ P x)
+(∃x. P x) ⟷ ¬ (∀x. ¬ P x)
+(∀x. P x ∧ Q x) ⟷ (∀x. P x) ∧ (∀x. Q x)
+(∃x. P x ∨ Q x) ⟷ (∃x. P x) ∨ (∃x. Q x)
+(∀x. P x ⟶ Q x) ⟶ (∀x. P x) ⟶ (∀x. Q x)
+(∀x. P x ⟶ Q x) ⟶ (∃x. P x) ⟶ (∃x. Q x)
+(∀x. P x) ∨ (∀x. Q x) ⟶ (∀x. P x ∨ Q x)
+(∃x. P x ∧ Q x) ⟶ (∃x. P x) ∧ (∃x. Q x)
+(∀x. P x ⟶ Q) ⟷ ((∃x. P x) ⟶ Q)
+(∀x. Q ⟶ P x) ⟷ (Q ⟶ (∀x. P x))
+(∃x. P x ⟶ Q) ⟷ ((∀x. P x) ⟶ Q)
+(∀x. P x ∧ R x) ⟷ (∀x. P x) ∧ (∀x. R x)
+(∃x. P x ∨ R x) ⟷ (∃x. P x) ∨ (∃x. R x)
+(∀x. P x ⟶ R x) ⟶ (∀x. P x) ⟶ (∀x. R x)
+(∀x. P x ⟶ R x) ⟶ (∃x. P x) ⟶ (∃x. R x)
+(∀x. P x) ∨ (∀x. R x) ⟶ (∀x. P x ∨ R x)
+(∃x. P x ∧ R x) ⟶ (∃x. P x) ∧ (∃x. R x)
+(∀x. P x ⟶ R) ⟷ ((∃x. P x) ⟶ R)
+(∀x. R ⟶ P x) ⟷ (R ⟶ (∀x. P x))
+(∃x. P x ⟶ R) ⟷ ((∀x. P x) ⟶ R)
+(∀x. P x ∧ S x) ⟷ (∀x. P x) ∧ (∀x. S x)
+(∃x. P x ∨ S x) ⟷ (∃x. P x) ∨ (∃x. S x)
+(∀x. P x ⟶ S x) ⟶ (∀x. P x) ⟶ (∀x. S x)
+(∀x. P x ⟶ S x) ⟶ (∃x. P x) ⟶ (∃x. S x)
+(∀x. P x) ∨ (∀x. S x) ⟶ (∀x. P x ∨ S x)
+(∃x. P x ∧ S x) ⟶ (∃x. P x) ∧ (∃x. S x)
+(∀x. P x ⟶ S) ⟷ ((∃x. P x) ⟶ S)
+(∀x. S ⟶ P x) ⟷ (S ⟶ (∀x. P x))
+(∃x. P x ⟶ S) ⟷ ((∀x. P x) ⟶ S)
+(∀x. P x ∧ A x) ⟷ (∀x. P x) ∧ (∀x. A x)
+(∃x. P x ∨ A x) ⟷ (∃x. P x) ∨ (∃x. A x)
+(∀x. P x ⟶ A x) ⟶ (∀x. P x) ⟶ (∀x. A x)
+(∀x. P x ⟶ A x) ⟶ (∃x. P x) ⟶ (∃x. A x)
+(∀x. P x) ∨ (∀x. A x) ⟶ (∀x. P x ∨ A x)
+(∃x. P x ∧ A x) ⟶ (∃x. P x) ∧ (∃x. A x)
+(∀x. P x ⟶ A) ⟷ ((∃x. P x) ⟶ A)
+(∀x. A ⟶ P x) ⟷ (A ⟶ (∀x. P x))
+(∃x. P x ⟶ A) ⟷ ((∀x. P x) ⟶ A)
+(∀x. P x ∧ B x) ⟷ (∀x. P x) ∧ (∀x. B x)
+(∃x. P x ∨ B x) ⟷ (∃x. P x) ∨ (∃x. B x)
+(∀x. P x ⟶ B x) ⟶ (∀x. P x) ⟶ (∀x. B x)
+(∀x. P x ⟶ B x) ⟶ (∃x. P x) ⟶ (∃x. B x)
+(∀x. P x) ∨ (∀x. B x) ⟶ (∀x. P x ∨ B x)
+(∃x. P x ∧ B x) ⟶ (∃x. P x) ∧ (∃x. B x)
+(∀x. P x ⟶ B) ⟷ ((∃x. P x) ⟶ B)
+(∀x. B ⟶ P x) ⟷ (B ⟶ (∀x. P x))
+(∃x. P x ⟶ B) ⟷ ((∀x. P x) ⟶ B)
+(∀x. Q x) ⟶ (∃x. Q x)
+(¬ (∃x. Q x)) ⟷ (∀x. ¬ Q x)
+(¬ (∀x. Q x)) ⟷ (∃x. ¬ Q x)
+(∀x. Q x) ∨ (∃x. ¬ Q x)
+(∀x. Q x) ⟷ ¬ (∃x. ¬ Q x)
+(∃x. Q x) ⟷ ¬ (∀x. ¬ Q x)
+(∀x. Q x ∧ P x) ⟷ (∀x. Q x) ∧ (∀x. P x)
+(∃x. Q x ∨ P x) ⟷ (∃x. Q x) ∨ (∃x. P x)
+(∀x. Q x ⟶ P x) ⟶ (∀x. Q x) ⟶ (∀x. P x)
+(∀x. Q x ⟶ P x) ⟶ (∃x. Q x) ⟶ (∃x. P x)
+(∀x. Q x) ∨ (∀x. P x) ⟶ (∀x. Q x ∨ P x)
+(∃x. Q x ∧ P x) ⟶ (∃x. Q x) ∧ (∃x. P x)
+(∀x. Q x ⟶ P) ⟷ ((∃x. Q x) ⟶ P)
+(∀x. P ⟶ Q x) ⟷ (P ⟶ (∀x. Q x))
+(∃x. Q x ⟶ P) ⟷ ((∀x. Q x) ⟶ P)
+(∀x. Q x ∧ R x) ⟷ (∀x. Q x) ∧ (∀x. R x)
+(∃x. Q x ∨ R x) ⟷ (∃x. Q x) ∨ (∃x. R x)
+(∀x. Q x ⟶ R x) ⟶ (∀x. Q x) ⟶ (∀x. R x)
+(∀x. Q x ⟶ R x) ⟶ (∃x. Q x) ⟶ (∃x. R x)
+(∀x. Q x) ∨ (∀x. R x) ⟶ (∀x. Q x ∨ R x)
+(∃x. Q x ∧ R x) ⟶ (∃x. Q x) ∧ (∃x. R x)
+(∀x. Q x ⟶ R) ⟷ ((∃x. Q x) ⟶ R)
+(∀x. R ⟶ Q x) ⟷ (R ⟶ (∀x. Q x))
+(∃x. Q x ⟶ R) ⟷ ((∀x. Q x) ⟶ R)
+(∀x. Q x ∧ S x) ⟷ (∀x. Q x) ∧ (∀x. S x)
+(∃x. Q x ∨ S x) ⟷ (∃x. Q x) ∨ (∃x. S x)
+(∀x. Q x ⟶ S x) ⟶ (∀x. Q x) ⟶ (∀x. S x)
+(∀x. Q x ⟶ S x) ⟶ (∃x. Q x) ⟶ (∃x. S x)
+(∀x. Q x) ∨ (∀x. S x) ⟶ (∀x. Q x ∨ S x)
+(∃x. Q x ∧ S x) ⟶ (∃x. Q x) ∧ (∃x. S x)
+(∀x. Q x ⟶ S) ⟷ ((∃x. Q x) ⟶ S)
+(∀x. S ⟶ Q x) ⟷ (S ⟶ (∀x. Q x))
+(∃x. Q x ⟶ S) ⟷ ((∀x. Q x) ⟶ S)
+(∀x. Q x ∧ A x) ⟷ (∀x. Q x) ∧ (∀x. A x)
+(∃x. Q x ∨ A x) ⟷ (∃x. Q x) ∨ (∃x. A x)
+(∀x. Q x ⟶ A x) ⟶ (∀x. Q x) ⟶ (∀x. A x)
+(∀x. Q x ⟶ A x) ⟶ (∃x. Q x) ⟶ (∃x. A x)
+(∀x. Q x) ∨ (∀x. A x) ⟶ (∀x. Q x ∨ A x)
+(∃x. Q x ∧ A x) ⟶ (∃x. Q x) ∧ (∃x. A x)
+(∀x. Q x ⟶ A) ⟷ ((∃x. Q x) ⟶ A)
+(∀x. A ⟶ Q x) ⟷ (A ⟶ (∀x. Q x))
+(∃x. Q x ⟶ A) ⟷ ((∀x. Q x) ⟶ A)
+(∀x. Q x ∧ B x) ⟷ (∀x. Q x) ∧ (∀x. B x)
+(∃x. Q x ∨ B x) ⟷ (∃x. Q x) ∨ (∃x. B x)
+(∀x. Q x ⟶ B x) ⟶ (∀x. Q x) ⟶ (∀x. B x)
+(∀x. Q x ⟶ B x) ⟶ (∃x. Q x) ⟶ (∃x. B x)
+(∀x. Q x) ∨ (∀x. B x) ⟶ (∀x. Q x ∨ B x)
+(∃x. Q x ∧ B x) ⟶ (∃x. Q x) ∧ (∃x. B x)
+(∀x. Q x ⟶ B) ⟷ ((∃x. Q x) ⟶ B)
+(∀x. B ⟶ Q x) ⟷ (B ⟶ (∀x. Q x))
+(∃x. Q x ⟶ B) ⟷ ((∀x. Q x) ⟶ B)
+(∀x. R x) ⟶ (∃x. R x)
+(¬ (∃x. R x)) ⟷ (∀x. ¬ R x)
+(¬ (∀x. R x)) ⟷ (∃x. ¬ R x)
+(∀x. R x) ∨ (∃x. ¬ R x)
+(∀x. R x) ⟷ ¬ (∃x. ¬ R x)
+(∃x. R x) ⟷ ¬ (∀x. ¬ R x)
+(∀x. R x ∧ P x) ⟷ (∀x. R x) ∧ (∀x. P x)
+(∃x. R x ∨ P x) ⟷ (∃x. R x) ∨ (∃x. P x)
+(∀x. R x ⟶ P x) ⟶ (∀x. R x) ⟶ (∀x. P x)
+(∀x. R x ⟶ P x) ⟶ (∃x. R x) ⟶ (∃x. P x)
+(∀x. R x) ∨ (∀x. P x) ⟶ (∀x. R x ∨ P x)
+(∃x. R x ∧ P x) ⟶ (∃x. R x) ∧ (∃x. P x)
+(∀x. R x ⟶ P) ⟷ ((∃x. R x) ⟶ P)
+(∀x. P ⟶ R x) ⟷ (P ⟶ (∀x. R x))
+(∃x. R x ⟶ P) ⟷ ((∀x. R x) ⟶ P)
+(∀x. R x ∧ Q x) ⟷ (∀x. R x) ∧ (∀x. Q x)
+(∃x. R x ∨ Q x) ⟷ (∃x. R x) ∨ (∃x. Q x)
+(∀x. R x ⟶ Q x) ⟶ (∀x. R x) ⟶ (∀x. Q x)
+(∀x. R x ⟶ Q x) ⟶ (∃x. R x) ⟶ (∃x. Q x)
+(∀x. R x) ∨ (∀x. Q x) ⟶ (∀x. R x ∨ Q x)
+(∃x. R x ∧ Q x) ⟶ (∃x. R x) ∧ (∃x. Q x)
+(∀x. R x ⟶ Q) ⟷ ((∃x. R x) ⟶ Q)
+(∀x. Q ⟶ R x) ⟷ (Q ⟶ (∀x. R x))
+(∃x. R x ⟶ Q) ⟷ ((∀x. R x) ⟶ Q)
+(∀x. R x ∧ S x) ⟷ (∀x. R x) ∧ (∀x. S x)
+(∃x. R x ∨ S x) ⟷ (∃x. R x) ∨ (∃x. S x)
+(∀x. R x ⟶ S x) ⟶ (∀x. R x) ⟶ (∀x. S x)
+(∀x. R x ⟶ S x) ⟶ (∃x. R x) ⟶ (∃x. S x)
+(∀x. R x) ∨ (∀x. S x) ⟶ (∀x. R x ∨ S x)
+(∃x. R x ∧ S x) ⟶ (∃x. R x) ∧ (∃x. S x)
+(∀x. R x ⟶ S) ⟷ ((∃x. R x) ⟶ S)
+(∀x. S ⟶ R x) ⟷ (S ⟶ (∀x. R x))
+(∃x. R x ⟶ S) ⟷ ((∀x. R x) ⟶ S)
+(∀x. R x ∧ A x) ⟷ (∀x. R x) ∧ (∀x. A x)
+(∃x. R x ∨ A x) ⟷ (∃x. R x) ∨ (∃x. A x)
+(∀x. R x ⟶ A x) ⟶ (∀x. R x) ⟶ (∀x. A x)
+(∀x. R x ⟶ A x) ⟶ (∃x. R x) ⟶ (∃x. A x)
+(∀x. R x) ∨ (∀x. A x) ⟶ (∀x. R x ∨ A x)
+(∃x. R x ∧ A x) ⟶ (∃x. R x) ∧ (∃x. A x)
+(∀x. R x ⟶ A) ⟷ ((∃x. R x) ⟶ A)
+(∀x. A ⟶ R x) ⟷ (A ⟶ (∀x. R x))
+(∃x. R x ⟶ A) ⟷ ((∀x. R x) ⟶ A)
+(∀x. R x ∧ B x) ⟷ (∀x. R x) ∧ (∀x. B x)
+(∃x. R x ∨ B x) ⟷ (∃x. R x) ∨ (∃x. B x)
+(∀x. R x ⟶ B x) ⟶ (∀x. R x) ⟶ (∀x. B x)
+(∀x. R x ⟶ B x) ⟶ (∃x. R x) ⟶ (∃x. B x)
+(∀x. R x) ∨ (∀x. B x) ⟶ (∀x. R x ∨ B x)
+(∃x. R x ∧ B x) ⟶ (∃x. R x) ∧ (∃x. B x)
+(∀x. R x ⟶ B) ⟷ ((∃x. R x) ⟶ B)
+(∀x. B ⟶ R x) ⟷ (B ⟶ (∀x. R x))
+(∃x. R x ⟶ B) ⟷ ((∀x. R x) ⟶ B)
+(∀x. S x) ⟶ (∃x. S x)
+(¬ (∃x. S x)) ⟷ (∀x. ¬ S x)
+(¬ (∀x. S x)) ⟷ (∃x. ¬ S x)
+(∀x. S x) ∨ (∃x. ¬ S x)
+(∀x. S x) ⟷ ¬ (∃x. ¬ S x)
+(∃x. S x) ⟷ ¬ (∀x. ¬ S x)
+(∀x. S x ∧ P x) ⟷ (∀x. S x) ∧ (∀x. P x)
+(∃x. S x ∨ P x) ⟷ (∃x. S x) ∨ (∃x. P x)
+(∀x. S x ⟶ P x) ⟶ (∀x. S x) ⟶ (∀x. P x)
+(∀x. S x ⟶ P x) ⟶ (∃x. S x) ⟶ (∃x. P x)
+(∀x. S x) ∨ (∀x. P x) ⟶ (∀x. S x ∨ P x)
+(∃x. S x ∧ P x) ⟶ (∃x. S x) ∧ (∃x. P x)
+(∀x. S x ⟶ P) ⟷ ((∃x. S x) ⟶ P)
+(∀x. P ⟶ S x) ⟷ (P ⟶ (∀x. S x))
+(∃x. S x ⟶ P) ⟷ ((∀x. S x) ⟶ P)
+(∀x. S x ∧ Q x) ⟷ (∀x. S x) ∧ (∀x. Q x)
+(∃x. S x ∨ Q x) ⟷ (∃x. S x) ∨ (∃x. Q x)
+(∀x. S x ⟶ Q x) ⟶ (∀x. S x) ⟶ (∀x. Q x)
+(∀x. S x ⟶ Q x) ⟶ (∃x. S x) ⟶ (∃x. Q x)
+(∀x. S x) ∨ (∀x. Q x) ⟶ (∀x. S x ∨ Q x)
+(∃x. S x ∧ Q x) ⟶ (∃x. S x) ∧ (∃x. Q x)
+(∀x. S x ⟶ Q) ⟷ ((∃x. S x) ⟶ Q)
+(∀x. Q ⟶ S x) ⟷ (Q ⟶ (∀x. S x))
+(∃x. S x ⟶ Q) ⟷ ((∀x. S x) ⟶ Q)
+(∀x. S x ∧ R x) ⟷ (∀x. S x) ∧ (∀x. R x)
+(∃x. S x ∨ R x) ⟷ (∃x. S x) ∨ (∃x. R x)
+(∀x. S x ⟶ R x) ⟶ (∀x. S x) ⟶ (∀x. R x)
+(∀x. S x ⟶ R x) ⟶ (∃x. S x) ⟶ (∃x. R x)
+(∀x. S x) ∨ (∀x. R x) ⟶ (∀x. S x ∨ R x)
+(∃x. S x ∧ R x) ⟶ (∃x. S x) ∧ (∃x. R x)
+(∀x. S x ⟶ R) ⟷ ((∃x. S x) ⟶ R)
+(∀x. R ⟶ S x) ⟷ (R ⟶ (∀x. S x))
+(∃x. S x ⟶ R) ⟷ ((∀x. S x) ⟶ R)
+(∀x. S x ∧ A x) ⟷ (∀x. S x) ∧ (∀x. A x)
+(∃x. S x ∨ A x) ⟷ (∃x. S x) ∨ (∃x. A x)
+(∀x. S x ⟶ A x) ⟶ (∀x. S x) ⟶ (∀x. A x)
+(∀x. S x ⟶ A x) ⟶ (∃x. S x) ⟶ (∃x. A x)
+(∀x. S x) ∨ (∀x. A x) ⟶ (∀x. S x ∨ A x)
+(∃x. S x ∧ A x) ⟶ (∃x. S x) ∧ (∃x. A x)
+(∀x. S x ⟶ A) ⟷ ((∃x. S x) ⟶ A)
+(∀x. A ⟶ S x) ⟷ (A ⟶ (∀x. S x))
+(∃x. S x ⟶ A) ⟷ ((∀x. S x) ⟶ A)
+(∀x. S x ∧ B x) ⟷ (∀x. S x) ∧ (∀x. B x)
+(∃x. S x ∨ B x) ⟷ (∃x. S x) ∨ (∃x. B x)
+(∀x. S x ⟶ B x) ⟶ (∀x. S x) ⟶ (∀x. B x)
+(∀x. S x ⟶ B x) ⟶ (∃x. S x) ⟶ (∃x. B x)
+(∀x. S x) ∨ (∀x. B x) ⟶ (∀x. S x ∨ B x)
+(∃x. S x ∧ B x) ⟶ (∃x. S x) ∧ (∃x. B x)
+(∀x. S x ⟶ B) ⟷ ((∃x. S x) ⟶ B)
+(∀x. B ⟶ S x) ⟷ (B ⟶ (∀x. S x))
+(∃x. S x ⟶ B) ⟷ ((∀x. S x) ⟶ B)
+(∀x. A x) ⟶ (∃x. A x)
+(¬ (∃x. A x)) ⟷ (∀x. ¬ A x)
+(¬ (∀x. A x)) ⟷ (∃x. ¬ A x)
+(∀x. A x) ∨ (∃x. ¬ A x)
+(∀x. A x) ⟷ ¬ (∃x. ¬ A x)
+(∃x. A x) ⟷ ¬ (∀x. ¬ A x)
+(∀x. A x ∧ P x) ⟷ (∀x. A x) ∧ (∀x. P x)
+(∃x. A x ∨ P x) ⟷ (∃x. A x) ∨ (∃x. P x)
+(∀x. A x ⟶ P x) ⟶ (∀x. A x) ⟶ (∀x. P x)
+(∀x. A x ⟶ P x) ⟶ (∃x. A x) ⟶ (∃x. P x)
+(∀x. A x) ∨ (∀x. P x) ⟶ (∀x. A x ∨ P x)
+(∃x. A x ∧ P x) ⟶ (∃x. A x) ∧ (∃x. P x)
+(∀x. A x ⟶ P) ⟷ ((∃x. A x) ⟶ P)
+(∀x. P ⟶ A x) ⟷ (P ⟶ (∀x. A x))
+(∃x. A x ⟶ P) ⟷ ((∀x. A x) ⟶ P)
+(∀x. A x ∧ Q x) ⟷ (∀x. A x) ∧ (∀x. Q x)
+(∃x. A x ∨ Q x) ⟷ (∃x. A x) ∨ (∃x. Q x)
+(∀x. A x ⟶ Q x) ⟶ (∀x. A x) ⟶ (∀x. Q x)
+(∀x. A x ⟶ Q x) ⟶ (∃x. A x) ⟶ (∃x. Q x)
+(∀x. A x) ∨ (∀x. Q x) ⟶ (∀x. A x ∨ Q x)
+(∃x. A x ∧ Q x) ⟶ (∃x. A x) ∧ (∃x. Q x)
+(∀x. A x ⟶ Q) ⟷ ((∃x. A x) ⟶ Q)
+(∀x. Q ⟶ A x) ⟷ (Q ⟶ (∀x. A x))
+(∃x. A x ⟶ Q) ⟷ ((∀x. A x) ⟶ Q)
+(∀x. A x ∧ R x) ⟷ (∀x. A x) ∧ (∀x. R x)
+(∃x. A x ∨ R x) ⟷ (∃x. A x) ∨ (∃x. R x)
+(∀x. A x ⟶ R x) ⟶ (∀x. A x) ⟶ (∀x. R x)
+(∀x. A x ⟶ R x) ⟶ (∃x. A x) ⟶ (∃x. R x)
+(∀x. A x) ∨ (∀x. R x) ⟶ (∀x. A x ∨ R x)
+(∃x. A x ∧ R x) ⟶ (∃x. A x) ∧ (∃x. R x)
+(∀x. A x ⟶ R) ⟷ ((∃x. A x) ⟶ R)
+(∀x. R ⟶ A x) ⟷ (R ⟶ (∀x. A x))
+(∃x. A x ⟶ R) ⟷ ((∀x. A x) ⟶ R)
+(∀x. A x ∧ S x) ⟷ (∀x. A x) ∧ (∀x. S x)
+(∃x. A x ∨ S x) ⟷ (∃x. A x) ∨ (∃x. S x)
+(∀x. A x ⟶ S x) ⟶ (∀x. A x) ⟶ (∀x. S x)
+(∀x. A x ⟶ S x) ⟶ (∃x. A x) ⟶ (∃x. S x)
+(∀x. A x) ∨ (∀x. S x) ⟶ (∀x. A x ∨ S x)
+(∃x. A x ∧ S x) ⟶ (∃x. A x) ∧ (∃x. S x)
+(∀x. A x ⟶ S) ⟷ ((∃x. A x) ⟶ S)
+(∀x. S ⟶ A x) ⟷ (S ⟶ (∀x. A x))
+(∃x. A x ⟶ S) ⟷ ((∀x. A x) ⟶ S)
+(∀x. A x ∧ B x) ⟷ (∀x. A x) ∧ (∀x. B x)
+(∃x. A x ∨ B x) ⟷ (∃x. A x) ∨ (∃x. B x)
+(∀x. A x ⟶ B x) ⟶ (∀x. A x) ⟶ (∀x. B x)
+(∀x. A x ⟶ B x) ⟶ (∃x. A x) ⟶ (∃x. B x)
+(∀x. A x) ∨ (∀x. B x) ⟶ (∀x. A x ∨ B x)
+(∃x. A x ∧ B x) ⟶ (∃x. A x) ∧ (∃x. B x)
+(∀x. A x ⟶ B) ⟷ ((∃x. A x) ⟶ B)
+(∀x. B ⟶ A x) ⟷ (B ⟶ (∀x. A x))
+(∃x. A x ⟶ B) ⟷ ((∀x. A x) ⟶ B)
+(∀x. B x) ⟶ (∃x. B x)
+(¬ (∃x. B x)) ⟷ (∀x. ¬ B x)
+(¬ (∀x. B x)) ⟷ (∃x. ¬ B x)
+(∀x. B x) ∨ (∃x. ¬ B x)
+(∀x. B x) ⟷ ¬ (∃x. ¬ B x)
+(∃x. B x) ⟷ ¬ (∀x. ¬ B x)
+(∀x. B x ∧ P x) ⟷ (∀x. B x) ∧ (∀x. P x)
+(∃x. B x ∨ P x) ⟷ (∃x. B x) ∨ (∃x. P x)
+(∀x. B x ⟶ P x) ⟶ (∀x. B x) ⟶ (∀x. P x)
+(∀x. B x ⟶ P x) ⟶ (∃x. B x) ⟶ (∃x. P x)
+(∀x. B x) ∨ (∀x. P x) ⟶ (∀x. B x ∨ P x)
+(∃x. B x ∧ P x) ⟶ (∃x. B x) ∧ (∃x. P x)
+(∀x. B x ⟶ P) ⟷ ((∃x. B x) ⟶ P)
+(∀x. P ⟶ B x) ⟷ (P ⟶ (∀x. B x))
+(∃x. B x ⟶ P) ⟷ ((∀x. B x) ⟶ P)
+(∀x. B x ∧ Q x) ⟷ (∀x. B x) ∧ (∀x. Q x)
+(∃x. B x ∨ Q x) ⟷ (∃x. B x) ∨ (∃x. Q x)
+(∀x. B x ⟶ Q x) ⟶ (∀x. B x) ⟶ (∀x. Q x)
+(∀x. B x ⟶ Q x) ⟶ (∃x. B x) ⟶ (∃x. Q x)
+(∀x. B x) ∨ (∀x. Q x) ⟶ (∀x. B x ∨ Q x)
+(∃x. B x ∧ Q x) ⟶ (∃x. B x) ∧ (∃x. Q x)
+(∀x. B x ⟶ Q) ⟷ ((∃x. B x) ⟶ Q)
+(∀x. Q ⟶ B x) ⟷ (Q ⟶ (∀x. B x))
+(∃x. B x ⟶ Q) ⟷ ((∀x. B x) ⟶ Q)
+(∀x. B x ∧ R x) ⟷ (∀x. B x) ∧ (∀x. R x)
+(∃x. B x ∨ R x) ⟷ (∃x. B x) ∨ (∃x. R x)
+(∀x. B x ⟶ R x) ⟶ (∀x. B x) ⟶ (∀x. R x)
+(∀x. B x ⟶ R x) ⟶ (∃x. B x) ⟶ (∃x. R x)
+(∀x. B x) ∨ (∀x. R x) ⟶ (∀x. B x ∨ R x)
+(∃x. B x ∧ R x) ⟶ (∃x. B x) ∧ (∃x. R x)
+(∀x. B x ⟶ R) ⟷ ((∃x. B x) ⟶ R)
+(∀x. R ⟶ B x) ⟷ (R ⟶ (∀x. B x))
+(∃x. B x ⟶ R) ⟷ ((∀x. B x) ⟶ R)
+(∀x. B x ∧ S x) ⟷ (∀x. B x) ∧ (∀x. S x)
+(∃x. B x ∨ S x) ⟷ (∃x. B x) ∨ (∃x. S x)
+(∀x. B x ⟶ S x) ⟶ (∀x. B x) ⟶ (∀x. S x)
+(∀x. B x ⟶ S x) ⟶ (∃x. B x) ⟶ (∃x. S x)
+(∀x. B x) ∨ (∀x. S x) ⟶ (∀x. B x ∨ S x)
+(∃x. B x ∧ S x) ⟶ (∃x. B x) ∧ (∃x. S x)
+(∀x. B x ⟶ S) ⟷ ((∃x. B x) ⟶ S)
+(∀x. S ⟶ B x) ⟷ (S ⟶ (∀x. B x))
+(∃x. B x ⟶ S) ⟷ ((∀x. B x) ⟶ S)
+(∀x. B x ∧ A x) ⟷ (∀x. B x) ∧ (∀x. A x)
+(∃x. B x ∨ A x) ⟷ (∃x. B x) ∨ (∃x. A x)
+(∀x. B x ⟶ A x) ⟶ (∀x. B x) ⟶ (∀x. A x)
+(∀x. B x ⟶ A x) ⟶ (∃x. B x) ⟶ (∃x. A x)
+(∀x. B x) ∨ (∀x. A x) ⟶ (∀x. B x ∨ A x)
+(∃x. B x ∧ A x) ⟶ (∃x. B x) ∧ (∃x. A x)
+(∀x. B x ⟶ A) ⟷ ((∃x. B x) ⟶ A)
+(∀x. A ⟶ B x) ⟷ (A ⟶ (∀x. B x))
+(∃x. B x ⟶ A) ⟷ ((∀x. B x) ⟶ A)
+A ∩ B ⊆ A
+A ⊆ A ∪ B
+A ∩ A = A
+A ∪ A = A
+A ∩ B = B ∩ A
+A ∪ B = B ∪ A
+A - B ⊆ A
+(A - B) ∩ B = {}
+(A - B) ∪ B = A ∪ B
+A ⊆ B ⟷ A ∪ B = B
+A ⊆ B ⟷ A ∩ B = A
+A - (A - B) = A ∩ B
+A ∩ {} = {}
+A ∪ {} = A
+UNIV - (UNIV - A) = A
+x ∈ A ∩ B ⟷ x ∈ A ∧ x ∈ B
+x ∈ A ∪ B ⟷ x ∈ A ∨ x ∈ B
+x ∈ A - B ⟷ x ∈ A ∧ x ∉ B
+A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+(A ∩ B) ∪ C = (A ∪ C) ∩ (B ∪ C)
+(A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C)
+A ⊆ B ∧ B ⊆ C ⟶ A ⊆ C
+A = B ⟷ A ⊆ B ∧ B ⊆ A
+A - B - C = A - (B ∪ C)
+A ∩ (B - C) = (A ∩ B) - C
+insert x A ∪ B = insert x (A ∪ B)
+insert x A ∩ B = (if x ∈ B then insert x (A ∩ B) else A ∩ B)
+{x} ⊆ A ⟷ x ∈ A
+X ∩ Y ⊆ X
+X ⊆ X ∪ Y
+X ∩ X = X
+X ∪ X = X
+X ∩ Y = Y ∩ X
+X ∪ Y = Y ∪ X
+X - Y ⊆ X
+(X - Y) ∩ Y = {}
+(X - Y) ∪ Y = X ∪ Y
+X ⊆ Y ⟷ X ∪ Y = Y
+X ⊆ Y ⟷ X ∩ Y = X
+X - (X - Y) = X ∩ Y
+X ∩ {} = {}
+X ∪ {} = X
+UNIV - (UNIV - X) = X
+x ∈ X ∩ Y ⟷ x ∈ X ∧ x ∈ Y
+x ∈ X ∪ Y ⟷ x ∈ X ∨ x ∈ Y
+x ∈ X - Y ⟷ x ∈ X ∧ x ∉ Y
+X ∩ (Y ∪ Z) = (X ∩ Y) ∪ (X ∩ Z)
+X ∪ (Y ∩ Z) = (X ∪ Y) ∩ (X ∪ Z)
+(X ∩ Y) ∪ Z = (X ∪ Z) ∩ (Y ∪ Z)
+(X ∪ Y) ∩ Z = (X ∩ Z) ∪ (Y ∩ Z)
+X ⊆ Y ∧ Y ⊆ Z ⟶ X ⊆ Z
+X = Y ⟷ X ⊆ Y ∧ Y ⊆ X
+X - Y - Z = X - (Y ∪ Z)
+X ∩ (Y - Z) = (X ∩ Y) - Z
+insert x X ∪ Y = insert x (X ∪ Y)
+insert x X ∩ Y = (if x ∈ Y then insert x (X ∩ Y) else X ∩ Y)
+{x} ⊆ X ⟷ x ∈ X
+S ∩ T ⊆ S
+S ⊆ S ∪ T
+S ∩ S = S
+S ∪ S = S
+S ∩ T = T ∩ S
+S ∪ T = T ∪ S
+S - T ⊆ S
+(S - T) ∩ T = {}
+(S - T) ∪ T = S ∪ T
+S ⊆ T ⟷ S ∪ T = T
+S ⊆ T ⟷ S ∩ T = S
+S - (S - T) = S ∩ T
+S ∩ {} = {}
+S ∪ {} = S
+UNIV - (UNIV - S) = S
+x ∈ S ∩ T ⟷ x ∈ S ∧ x ∈ T
+x ∈ S ∪ T ⟷ x ∈ S ∨ x ∈ T
+x ∈ S - T ⟷ x ∈ S ∧ x ∉ T
+S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)
+S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)
+(S ∩ T) ∪ U = (S ∪ U) ∩ (T ∪ U)
+(S ∪ T) ∩ U = (S ∩ U) ∪ (T ∩ U)
+S ⊆ T ∧ T ⊆ U ⟶ S ⊆ U
+S = T ⟷ S ⊆ T ∧ T ⊆ S
+S - T - U = S - (T ∪ U)
+S ∩ (T - U) = (S ∩ T) - U
+insert x S ∪ T = insert x (S ∪ T)
+insert x S ∩ T = (if x ∈ T then insert x (S ∩ T) else S ∩ T)
+{x} ⊆ S ⟷ x ∈ S
+M ∩ N ⊆ M
+M ⊆ M ∪ N
+M ∩ M = M
+M ∪ M = M
+M ∩ N = N ∩ M
+M ∪ N = N ∪ M
+M - N ⊆ M
+(M - N) ∩ N = {}
+(M - N) ∪ N = M ∪ N
+M ⊆ N ⟷ M ∪ N = N
+M ⊆ N ⟷ M ∩ N = M
+M - (M - N) = M ∩ N
+M ∩ {} = {}
+M ∪ {} = M
+UNIV - (UNIV - M) = M
+x ∈ M ∩ N ⟷ x ∈ M ∧ x ∈ N
+x ∈ M ∪ N ⟷ x ∈ M ∨ x ∈ N
+x ∈ M - N ⟷ x ∈ M ∧ x ∉ N
+M ∩ (N ∪ K) = (M ∩ N) ∪ (M ∩ K)
+M ∪ (N ∩ K) = (M ∪ N) ∩ (M ∪ K)
+(M ∩ N) ∪ K = (M ∪ K) ∩ (N ∪ K)
+(M ∪ N) ∩ K = (M ∩ K) ∪ (N ∩ K)
+M ⊆ N ∧ N ⊆ K ⟶ M ⊆ K
+M = N ⟷ M ⊆ N ∧ N ⊆ M
+M - N - K = M - (N ∪ K)
+M ∩ (N - K) = (M ∩ N) - K
+insert x M ∪ N = insert x (M ∪ N)
+insert x M ∩ N = (if x ∈ N then insert x (M ∩ N) else M ∩ N)
+{x} ⊆ M ⟷ x ∈ M
+P ∩ Q ⊆ P
+P ⊆ P ∪ Q
+P ∩ P = P
+P ∪ P = P
+P ∩ Q = Q ∩ P
+P ∪ Q = Q ∪ P
+P - Q ⊆ P
+(P - Q) ∩ Q = {}
+(P - Q) ∪ Q = P ∪ Q
+P ⊆ Q ⟷ P ∪ Q = Q
+P ⊆ Q ⟷ P ∩ Q = P
+P - (P - Q) = P ∩ Q
+P ∩ {} = {}
+P ∪ {} = P
+UNIV - (UNIV - P) = P
+x ∈ P ∩ Q ⟷ x ∈ P ∧ x ∈ Q
+x ∈ P ∪ Q ⟷ x ∈ P ∨ x ∈ Q
+x ∈ P - Q ⟷ x ∈ P ∧ x ∉ Q
+P ∩ (Q ∪ R) = (P ∩ Q) ∪ (P ∩ R)
+P ∪ (Q ∩ R) = (P ∪ Q) ∩ (P ∪ R)
+(P ∩ Q) ∪ R = (P ∪ R) ∩ (Q ∪ R)
+(P ∪ Q) ∩ R = (P ∩ R) ∪ (Q ∩ R)
+P ⊆ Q ∧ Q ⊆ R ⟶ P ⊆ R
+P = Q ⟷ P ⊆ Q ∧ Q ⊆ P
+P - Q - R = P - (Q ∪ R)
+P ∩ (Q - R) = (P ∩ Q) - R
+insert x P ∪ Q = insert x (P ∪ Q)
+insert x P ∩ Q = (if x ∈ Q then insert x (P ∩ Q) else P ∩ Q)
+{x} ⊆ P ⟷ x ∈ P
+(x1::nat) + 0 = x1
+0 + (x1::nat) = x1
+(x1::nat) * 1 = x1
+1 * (x1::nat) = x1
+(x1::nat) * 0 = 0
+0 * (x1::nat) = 0
+(x1::nat) + y1 = y1 + x1
+(x1::nat) * y1 = y1 * x1
+((x1::nat) + y1) + z1 = x1 + (y1 + z1)
+((x1::nat) * y1) * z = x1 * (y1 * z)
+(x1::nat) * (y1 + z1) = x1 * y1 + x1 * z1
+(x1::nat) + y1 = x1 + z1 ⟷ y1 = z1
+min (x1::nat) y1 ≤ x1
+min (x1::nat) y1 ≤ y1
+x1 ≤ max (x1::nat) y1
+y1 ≤ max (x1::nat) y1
+min (x1::nat) y1 = min y1 x1
+max (x1::nat) y1 = max y1 x1
+(x2::nat) + 0 = x2
+0 + (x2::nat) = x2
+(x2::nat) * 1 = x2
+1 * (x2::nat) = x2
+(x2::nat) * 0 = 0
+0 * (x2::nat) = 0
+(x2::nat) + y2 = y2 + x2
+(x2::nat) * y2 = y2 * x2
+((x2::nat) + y2) + z2 = x2 + (y2 + z2)
+((x2::nat) * y2) * z = x2 * (y2 * z)
+(x2::nat) * (y2 + z2) = x2 * y2 + x2 * z2
+(x2::nat) + y2 = x2 + z2 ⟷ y2 = z2
+min (x2::nat) y2 ≤ x2
+min (x2::nat) y2 ≤ y2
+x2 ≤ max (x2::nat) y2
+y2 ≤ max (x2::nat) y2
+min (x2::nat) y2 = min y2 x2
+max (x2::nat) y2 = max y2 x2
+(x3::nat) + 0 = x3
+0 + (x3::nat) = x3
+(x3::nat) * 1 = x3
+1 * (x3::nat) = x3
+(x3::nat) * 0 = 0
+0 * (x3::nat) = 0
+(x3::nat) + y3 = y3 + x3
+(x3::nat) * y3 = y3 * x3
+((x3::nat) + y3) + z3 = x3 + (y3 + z3)
+((x3::nat) * y3) * z = x3 * (y3 * z)
+(x3::nat) * (y3 + z3) = x3 * y3 + x3 * z3
+(x3::nat) + y3 = x3 + z3 ⟷ y3 = z3
+min (x3::nat) y3 ≤ x3
+min (x3::nat) y3 ≤ y3
+x3 ≤ max (x3::nat) y3
+y3 ≤ max (x3::nat) y3
+min (x3::nat) y3 = min y3 x3
+max (x3::nat) y3 = max y3 x3
+(x4::nat) + 0 = x4
+0 + (x4::nat) = x4
+(x4::nat) * 1 = x4
+1 * (x4::nat) = x4
+(x4::nat) * 0 = 0
+0 * (x4::nat) = 0
+(x4::nat) + y4 = y4 + x4
+(x4::nat) * y4 = y4 * x4
+((x4::nat) + y4) + z4 = x4 + (y4 + z4)
+((x4::nat) * y4) * z = x4 * (y4 * z)
+(x4::nat) * (y4 + z4) = x4 * y4 + x4 * z4
+(x4::nat) + y4 = x4 + z4 ⟷ y4 = z4
+min (x4::nat) y4 ≤ x4
+min (x4::nat) y4 ≤ y4
+x4 ≤ max (x4::nat) y4
+y4 ≤ max (x4::nat) y4
+min (x4::nat) y4 = min y4 x4
+max (x4::nat) y4 = max y4 x4
+(x5::nat) + 0 = x5
+0 + (x5::nat) = x5
+(x5::nat) * 1 = x5
+1 * (x5::nat) = x5
+(x5::nat) * 0 = 0
+0 * (x5::nat) = 0
+(x5::nat) + y5 = y5 + x5
+(x5::nat) * y5 = y5 * x5
+((x5::nat) + y5) + z5 = x5 + (y5 + z5)
+((x5::nat) * y5) * z = x5 * (y5 * z)
+(x5::nat) * (y5 + z5) = x5 * y5 + x5 * z5
+(x5::nat) + y5 = x5 + z5 ⟷ y5 = z5
+min (x5::nat) y5 ≤ x5
+min (x5::nat) y5 ≤ y5
+x5 ≤ max (x5::nat) y5
+y5 ≤ max (x5::nat) y5
+min (x5::nat) y5 = min y5 x5
+max (x5::nat) y5 = max y5 x5
+(x6::nat) + 0 = x6
+0 + (x6::nat) = x6
+(x6::nat) * 1 = x6
+1 * (x6::nat) = x6
+(x6::nat) * 0 = 0
+0 * (x6::nat) = 0
+(x6::nat) + y6 = y6 + x6
+(x6::nat) * y6 = y6 * x6
+((x6::nat) + y6) + z6 = x6 + (y6 + z6)
+((x6::nat) * y6) * z = x6 * (y6 * z)
+(x6::nat) * (y6 + z6) = x6 * y6 + x6 * z6
+(x6::nat) + y6 = x6 + z6 ⟷ y6 = z6
+min (x6::nat) y6 ≤ x6
+min (x6::nat) y6 ≤ y6
+x6 ≤ max (x6::nat) y6
+y6 ≤ max (x6::nat) y6
+min (x6::nat) y6 = min y6 x6
+max (x6::nat) y6 = max y6 x6
+(x7::nat) + 0 = x7
+0 + (x7::nat) = x7
+(x7::nat) * 1 = x7
+1 * (x7::nat) = x7
+(x7::nat) * 0 = 0
+0 * (x7::nat) = 0
+(x7::nat) + y7 = y7 + x7
+(x7::nat) * y7 = y7 * x7
+((x7::nat) + y7) + z7 = x7 + (y7 + z7)
+((x7::nat) * y7) * z = x7 * (y7 * z)
+(x7::nat) * (y7 + z7) = x7 * y7 + x7 * z7
+(x7::nat) + y7 = x7 + z7 ⟷ y7 = z7
+min (x7::nat) y7 ≤ x7
+min (x7::nat) y7 ≤ y7
+x7 ≤ max (x7::nat) y7
+y7 ≤ max (x7::nat) y7
+min (x7::nat) y7 = min y7 x7
+max (x7::nat) y7 = max y7 x7
+(x8::nat) + 0 = x8
+0 + (x8::nat) = x8
+(x8::nat) * 1 = x8
+1 * (x8::nat) = x8
+(x8::nat) * 0 = 0
+0 * (x8::nat) = 0
+(x8::nat) + y8 = y8 + x8
+(x8::nat) * y8 = y8 * x8
+((x8::nat) + y8) + z8 = x8 + (y8 + z8)
+((x8::nat) * y8) * z = x8 * (y8 * z)
+(x8::nat) * (y8 + z8) = x8 * y8 + x8 * z8
+(x8::nat) + y8 = x8 + z8 ⟷ y8 = z8
+min (x8::nat) y8 ≤ x8
+min (x8::nat) y8 ≤ y8
+x8 ≤ max (x8::nat) y8
+y8 ≤ max (x8::nat) y8
+min (x8::nat) y8 = min y8 x8
+max (x8::nat) y8 = max y8 x8
+(x9::nat) + 0 = x9
+0 + (x9::nat) = x9
+(x9::nat) * 1 = x9
+1 * (x9::nat) = x9
+(x9::nat) * 0 = 0
+0 * (x9::nat) = 0
+(x9::nat) + y9 = y9 + x9
+(x9::nat) * y9 = y9 * x9
+((x9::nat) + y9) + z9 = x9 + (y9 + z9)
+((x9::nat) * y9) * z = x9 * (y9 * z)
+(x9::nat) * (y9 + z9) = x9 * y9 + x9 * z9
+(x9::nat) + y9 = x9 + z9 ⟷ y9 = z9
+min (x9::nat) y9 ≤ x9
+min (x9::nat) y9 ≤ y9
+x9 ≤ max (x9::nat) y9
+y9 ≤ max (x9::nat) y9
+min (x9::nat) y9 = min y9 x9
+max (x9::nat) y9 = max y9 x9
+(x10::nat) + 0 = x10
+0 + (x10::nat) = x10
+(x10::nat) * 1 = x10
+1 * (x10::nat) = x10
+(x10::nat) * 0 = 0
+0 * (x10::nat) = 0
+(x10::nat) + y10 = y10 + x10
+(x10::nat) * y10 = y10 * x10
+((x10::nat) + y10) + z10 = x10 + (y10 + z10)
+((x10::nat) * y10) * z = x10 * (y10 * z)
+(x10::nat) * (y10 + z10) = x10 * y10 + x10 * z10
+(x10::nat) + y10 = x10 + z10 ⟷ y10 = z10
+min (x10::nat) y10 ≤ x10
+min (x10::nat) y10 ≤ y10
+x10 ≤ max (x10::nat) y10
+y10 ≤ max (x10::nat) y10
+min (x10::nat) y10 = min y10 x10
+max (x10::nat) y10 = max y10 x10
+(x11::nat) + 0 = x11
+0 + (x11::nat) = x11
+(x11::nat) * 1 = x11
+1 * (x11::nat) = x11
+(x11::nat) * 0 = 0
+0 * (x11::nat) = 0
+(x11::nat) + y11 = y11 + x11
+(x11::nat) * y11 = y11 * x11
+((x11::nat) + y11) + z11 = x11 + (y11 + z11)
+((x11::nat) * y11) * z = x11 * (y11 * z)
+(x11::nat) * (y11 + z11) = x11 * y11 + x11 * z11
+(x11::nat) + y11 = x11 + z11 ⟷ y11 = z11
+min (x11::nat) y11 ≤ x11
+min (x11::nat) y11 ≤ y11
+x11 ≤ max (x11::nat) y11
+y11 ≤ max (x11::nat) y11
+min (x11::nat) y11 = min y11 x11
+max (x11::nat) y11 = max y11 x11
+(x12::nat) + 0 = x12
+0 + (x12::nat) = x12
+(x12::nat) * 1 = x12
+1 * (x12::nat) = x12
+(x12::nat) * 0 = 0
+0 * (x12::nat) = 0
+(x12::nat) + y12 = y12 + x12
+(x12::nat) * y12 = y12 * x12
+((x12::nat) + y12) + z12 = x12 + (y12 + z12)
+((x12::nat) * y12) * z = x12 * (y12 * z)
+(x12::nat) * (y12 + z12) = x12 * y12 + x12 * z12
+(x12::nat) + y12 = x12 + z12 ⟷ y12 = z12
+min (x12::nat) y12 ≤ x12
+min (x12::nat) y12 ≤ y12
+x12 ≤ max (x12::nat) y12
+y12 ≤ max (x12::nat) y12
+min (x12::nat) y12 = min y12 x12
+max (x12::nat) y12 = max y12 x12
+(x13::nat) + 0 = x13
+0 + (x13::nat) = x13
+(x13::nat) * 1 = x13
+1 * (x13::nat) = x13
+(x13::nat) * 0 = 0
+0 * (x13::nat) = 0
+(x13::nat) + y13 = y13 + x13
+(x13::nat) * y13 = y13 * x13
+((x13::nat) + y13) + z13 = x13 + (y13 + z13)
+((x13::nat) * y13) * z = x13 * (y13 * z)
+(x13::nat) * (y13 + z13) = x13 * y13 + x13 * z13
+(x13::nat) + y13 = x13 + z13 ⟷ y13 = z13
+min (x13::nat) y13 ≤ x13
+min (x13::nat) y13 ≤ y13
+x13 ≤ max (x13::nat) y13
+y13 ≤ max (x13::nat) y13
+min (x13::nat) y13 = min y13 x13
+max (x13::nat) y13 = max y13 x13
+(x14::nat) + 0 = x14
+0 + (x14::nat) = x14
+(x14::nat) * 1 = x14
+1 * (x14::nat) = x14
+(x14::nat) * 0 = 0
+0 * (x14::nat) = 0
+(x14::nat) + y14 = y14 + x14
+(x14::nat) * y14 = y14 * x14
+((x14::nat) + y14) + z14 = x14 + (y14 + z14)
+((x14::nat) * y14) * z = x14 * (y14 * z)
+(x14::nat) * (y14 + z14) = x14 * y14 + x14 * z14
+(x14::nat) + y14 = x14 + z14 ⟷ y14 = z14
+min (x14::nat) y14 ≤ x14
+min (x14::nat) y14 ≤ y14
+x14 ≤ max (x14::nat) y14
+y14 ≤ max (x14::nat) y14
+min (x14::nat) y14 = min y14 x14
+max (x14::nat) y14 = max y14 x14
+(x1::int) + 0 = x1
+0 + (x1::int) = x1
+(x1::int) * 1 = x1
+1 * (x1::int) = x1
+(x1::int) * 0 = 0
+0 * (x1::int) = 0
+(x1::int) + y1 = y1 + x1
+(x1::int) * y1 = y1 * x1
+((x1::int) + y1) + z1 = x1 + (y1 + z1)
+((x1::int) * y1) * z = x1 * (y1 * z)
+(x1::int) * (y1 + z1) = x1 * y1 + x1 * z1
+(x1::int) + y1 = x1 + z1 ⟷ y1 = z1
+min (x1::int) y1 ≤ x1
+min (x1::int) y1 ≤ y1
+x1 ≤ max (x1::int) y1
+y1 ≤ max (x1::int) y1
+min (x1::int) y1 = min y1 x1
+max (x1::int) y1 = max y1 x1
+(x2::int) + 0 = x2
+0 + (x2::int) = x2
+(x2::int) * 1 = x2
+1 * (x2::int) = x2
+(x2::int) * 0 = 0
+0 * (x2::int) = 0
+(x2::int) + y2 = y2 + x2
+(x2::int) * y2 = y2 * x2
+((x2::int) + y2) + z2 = x2 + (y2 + z2)
+((x2::int) * y2) * z = x2 * (y2 * z)
+(x2::int) * (y2 + z2) = x2 * y2 + x2 * z2
+(x2::int) + y2 = x2 + z2 ⟷ y2 = z2
+min (x2::int) y2 ≤ x2
+min (x2::int) y2 ≤ y2
+x2 ≤ max (x2::int) y2
+y2 ≤ max (x2::int) y2
+min (x2::int) y2 = min y2 x2
+max (x2::int) y2 = max y2 x2
+(x3::int) + 0 = x3
+0 + (x3::int) = x3
+(x3::int) * 1 = x3
+1 * (x3::int) = x3
+(x3::int) * 0 = 0
+0 * (x3::int) = 0
+(x3::int) + y3 = y3 + x3
+(x3::int) * y3 = y3 * x3
+((x3::int) + y3) + z3 = x3 + (y3 + z3)
+((x3::int) * y3) * z = x3 * (y3 * z)
+(x3::int) * (y3 + z3) = x3 * y3 + x3 * z3
+(x3::int) + y3 = x3 + z3 ⟷ y3 = z3
+min (x3::int) y3 ≤ x3
+min (x3::int) y3 ≤ y3
+x3 ≤ max (x3::int) y3
+y3 ≤ max (x3::int) y3
+min (x3::int) y3 = min y3 x3
+max (x3::int) y3 = max y3 x3
+(x4::int) + 0 = x4
+0 + (x4::int) = x4
+(x4::int) * 1 = x4
+1 * (x4::int) = x4
+(x4::int) * 0 = 0
+0 * (x4::int) = 0
+(x4::int) + y4 = y4 + x4
+(x4::int) * y4 = y4 * x4
+((x4::int) + y4) + z4 = x4 + (y4 + z4)
+((x4::int) * y4) * z = x4 * (y4 * z)
+(x4::int) * (y4 + z4) = x4 * y4 + x4 * z4
+(x4::int) + y4 = x4 + z4 ⟷ y4 = z4
+min (x4::int) y4 ≤ x4
+min (x4::int) y4 ≤ y4
+x4 ≤ max (x4::int) y4
+y4 ≤ max (x4::int) y4
+min (x4::int) y4 = min y4 x4
+max (x4::int) y4 = max y4 x4
+(x5::int) + 0 = x5
+0 + (x5::int) = x5
+(x5::int) * 1 = x5
+1 * (x5::int) = x5
+(x5::int) * 0 = 0
+0 * (x5::int) = 0
+(x5::int) + y5 = y5 + x5
+(x5::int) * y5 = y5 * x5
+((x5::int) + y5) + z5 = x5 + (y5 + z5)
+((x5::int) * y5) * z = x5 * (y5 * z)
+(x5::int) * (y5 + z5) = x5 * y5 + x5 * z5
+(x5::int) + y5 = x5 + z5 ⟷ y5 = z5
+min (x5::int) y5 ≤ x5
+min (x5::int) y5 ≤ y5
+x5 ≤ max (x5::int) y5
+y5 ≤ max (x5::int) y5
+min (x5::int) y5 = min y5 x5
+max (x5::int) y5 = max y5 x5
+(x6::int) + 0 = x6
+0 + (x6::int) = x6
+(x6::int) * 1 = x6
+1 * (x6::int) = x6
+(x6::int) * 0 = 0
+0 * (x6::int) = 0
+(x6::int) + y6 = y6 + x6
+(x6::int) * y6 = y6 * x6
+((x6::int) + y6) + z6 = x6 + (y6 + z6)
+((x6::int) * y6) * z = x6 * (y6 * z)
+(x6::int) * (y6 + z6) = x6 * y6 + x6 * z6
+(x6::int) + y6 = x6 + z6 ⟷ y6 = z6
+min (x6::int) y6 ≤ x6
+min (x6::int) y6 ≤ y6
+x6 ≤ max (x6::int) y6
+y6 ≤ max (x6::int) y6
+min (x6::int) y6 = min y6 x6
+max (x6::int) y6 = max y6 x6
+(x7::int) + 0 = x7
+0 + (x7::int) = x7
+(x7::int) * 1 = x7
+1 * (x7::int) = x7
+(x7::int) * 0 = 0
+0 * (x7::int) = 0
+(x7::int) + y7 = y7 + x7
+(x7::int) * y7 = y7 * x7
+((x7::int) + y7) + z7 = x7 + (y7 + z7)
+((x7::int) * y7) * z = x7 * (y7 * z)
+(x7::int) * (y7 + z7) = x7 * y7 + x7 * z7
+(x7::int) + y7 = x7 + z7 ⟷ y7 = z7
+min (x7::int) y7 ≤ x7
+min (x7::int) y7 ≤ y7
+x7 ≤ max (x7::int) y7
+y7 ≤ max (x7::int) y7
+min (x7::int) y7 = min y7 x7
+max (x7::int) y7 = max y7 x7
+(x8::int) + 0 = x8
+0 + (x8::int) = x8
+(x8::int) * 1 = x8
+1 * (x8::int) = x8
+(x8::int) * 0 = 0
+0 * (x8::int) = 0
+(x8::int) + y8 = y8 + x8
+(x8::int) * y8 = y8 * x8
+((x8::int) + y8) + z8 = x8 + (y8 + z8)
+((x8::int) * y8) * z = x8 * (y8 * z)
+(x8::int) * (y8 + z8) = x8 * y8 + x8 * z8
+(x8::int) + y8 = x8 + z8 ⟷ y8 = z8
+min (x8::int) y8 ≤ x8
+min (x8::int) y8 ≤ y8
+x8 ≤ max (x8::int) y8
+y8 ≤ max (x8::int) y8
+min (x8::int) y8 = min y8 x8
+max (x8::int) y8 = max y8 x8
+(x9::int) + 0 = x9
+0 + (x9::int) = x9
+(x9::int) * 1 = x9
+1 * (x9::int) = x9
+(x9::int) * 0 = 0
+0 * (x9::int) = 0
+(x9::int) + y9 = y9 + x9
+(x9::int) * y9 = y9 * x9
+((x9::int) + y9) + z9 = x9 + (y9 + z9)
+((x9::int) * y9) * z = x9 * (y9 * z)
+(x9::int) * (y9 + z9) = x9 * y9 + x9 * z9
+(x9::int) + y9 = x9 + z9 ⟷ y9 = z9
+min (x9::int) y9 ≤ x9
+min (x9::int) y9 ≤ y9
+x9 ≤ max (x9::int) y9
+y9 ≤ max (x9::int) y9
+min (x9::int) y9 = min y9 x9
+max (x9::int) y9 = max y9 x9
+(x10::int) + 0 = x10
+0 + (x10::int) = x10
+(x10::int) * 1 = x10
