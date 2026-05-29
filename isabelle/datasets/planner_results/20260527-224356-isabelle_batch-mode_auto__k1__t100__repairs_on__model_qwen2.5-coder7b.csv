@@ -1,0 +1,3 @@
+goal,success,elapsed_s,mode,model,outline_chars,fills,failed_holes,had_sorry,verified_ok
+"{""goal"": ""(A ∧ (B ⟶ C)) ⟶ ((A ∧ B) ⟶ C)"", ""suite"": ""logic""},",False,133.5367,auto,qwen2.5-coder:7b,0,0,0,False,True
+"{""goal"": ""(A ⟶ (B ⟶ C)) ⟶ (A ∧ B ⟶ C)"", ""suite"": ""logic""},",True,121.8440,auto,qwen2.5-coder:7b,265,0,1,False,True

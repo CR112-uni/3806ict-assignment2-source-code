@@ -1,0 +1,100 @@
+∀G. group G ∧ finite (carrier G) ⟶ (∀H. subgroup H G ⟶ card (carrier H) dvd card (carrier G))
+∀G H. group_hom G H f ⟶ (carrier G / kernel G H f) ≅ image f (carrier G)
+∀R. principal_ideal_domain R ⟶ unique_factorization_domain R
+∀F. field F ⟶ (∀p. degree p > 0 ⟶ (∃K. field K ∧ F ⊆ K ∧ (∃x ∈ carrier K. eval p x = 0)))
+∀R. euclidean_domain R ⟶ principal_ideal_domain R
+∀G. finite (carrier G) ∧ prime (card (carrier G)) ⟶ cyclic_group G
+∀G. group G ⟶ (∀x y ∈ carrier G. order (x ⊗ y) = order (y ⊗ x))
+∀G. abelian_group G ⟶ (∀H. subgroup H G ⟶ normal_subgroup H G)
+∀R. ring R ⟶ (∀I. maximal_ideal I R ⟶ is_field (R / I))
+∀R. ring R ⟶ (∀I. prime_ideal I R ⟶ integral_domain (R / I))
+∀G. normal_subgroup H G ∧ normal_subgroup K G ∧ H ∩ K = {𝟭} ⟶ (∀x ∈ H. ∀y ∈ K. x ⊗ y = y ⊗ x)
+∀V. vector_space V ⟶ (∀B1 B2. basis B1 V ∧ basis B2 V ⟶ card B1 = card B2)
+∀M. matrix M ∧ invertible M ⟶ det (inverse M) = 1 / det M
+∀M. symmetric_matrix M ⟶ (∀λ. eigenvalue M λ ⟶ λ ∈ ℝ)
+∀A. square_matrix A ⟶ char_poly A A = 0
+∀G. finite_group G ∧ prime p ∧ p dvd card (carrier G) ⟶ (∃x ∈ carrier G. order x = p)
+∀G. finite_group G ∧ prime p ∧ p ^ k dvd card (carrier G) ⟶ (∃H. Sylow_subgroup p H G)
+∀R. integral_domain R ⟶ (∀p. prime_elem p R ⟶ irreducible_elem p R)
+∀F. finite_field F ⟶ cyclic_group (mult_group F)
+∀V. inner_product_space V ⟶ (∀x y. (inner x y) ^ 2 ≤ inner x x * inner y y)
+∀f A. continuous_on A f ∧ compact A ⟶ uniformly_continuous_on A f
+∀A. compact (A :: 'a :: metric_space set) ⟷ (∀X. (∀n. X n ∈ A) ⟶ (∃r. subseq r ∧ (∃l ∈ A. (X ∘ r) ⟶ l)))
+∀A. connected A ∧ x ∈ A ∧ y ∈ A ⟶ (∀z. x < z ∧ z < y ⟶ z ∈ A)
+∀f. (∀x. derivable f x) ∧ f a = f b ⟶ (∃c. a < c ∧ c < b ∧ deriv f c = 0)
+∀f. (∀x. derivable f x) ⟶ (∃c. a < c ∧ c < b ∧ f b - f a = (b - a) * deriv f c)
+∀f. analytic_on U f ∧ connected U ∧ (∀x ∈ U. f x = 0) ⟶ (∀x ∈ U. f x = 0)
+∀f. continuous_on (path_image γ) f ⟶ valid_path γ ⟶ Cauchy_integral_formula f γ
+∀X. topological_space X ⟶ (∀A. connected A ⟶ connected (closure A))
+∀X Y. compact X ∧ compact Y ⟶ compact (X × Y)
+∀f. (∀n. continuous_on A (f n)) ∧ uniform_convergent f g A ⟶ continuous_on A g
+∀f. integrable lebesgue f ⟶ (λn. ∫ x. f x * cos (n * x) ∂lebesgue) ⟶ 0
+∀f. analytic_on (ball z r) f ⟶ (∃c. ∀x ∈ ball z r. f x = (∑n. c n * (x - z) ^ n))
+∀f A. measurable_sets M A ∧ (∀n. A n ∈ M) ⟶ (⋃n. A n) ∈ M
+∀f. (∀n. integrable M (f n)) ∧ (λn. f n x) ⟶ g x ∧ (∀n. ¦f n x¦ ≤ F x) ∧ integrable M F ⟶ (λn. ∫ x. f n x ∂M) ⟶ ∫ x. g x ∂M
+∀f. monotone_on A f ⟶ countable {x ∈ A. ¬ continuous_at x f}
+∀A. closed A ∧ bounded A ⟶ complete (A :: 'a :: metric_space set)
+∀f. (∀x ∈ ball z r. deriv f x = 0) ⟶ (∃c. ∀x ∈ ball z r. f x = c)
+∀X. metric_space X ⟶ (∀A. totally_bounded A ∧ complete A ⟷ compact A)
+∀f. bounded_linear f ⟶ continuous_on UNIV f
+∀f. continuous_on {a..b} f ⟶ (∃c ∈ {a..b}. ∀x ∈ {a..b}. f x ≤ f c)
+∀p. prime p ⟶ (fact (p - 1) mod p = p - 1)
+∀n. n > 4 ∧ ¬ prime n ⟶ (fact (n - 1) mod n = 0)
+∀a b. coprime a b ⟶ (∃x y. x * a + y * b = 1)
+∀n. (∑d | d dvd n. phi d) = n
+∀n. n > 0 ⟶ phi n = n * (∏p | prime p ∧ p dvd n. (1 - 1 / p))
+∀p a. prime p ∧ ¬ (p dvd a) ⟶ [a ^ (p - 1) = 1] (mod p)
+∀a b m. coprime m 1 ⟶ (∃!x. [a * x = b] (mod m))
+∀n. (⋃d | d dvd n. {k. 1 ≤ k ∧ k ≤ n ∧ gcd k n = d}) = {1..n}
+∀a b. gcd a b * lcm a b = a * b
+∀p. prime p ⟶ (∀a b. p dvd (a * b) ⟶ p dvd a ∨ p dvd b)
+∀n. (∃p1 p2. prime p1 ∧ prime p2 ∧ n = p1 * p2) ⟶ countable {x. x dvd n}
+∀n. (∑k=1..n. k ^ 2) = n * (n + 1) * (2 * n + 1) / 6
+∀n. (∑k=0..n. binomial n k) = 2 ^ n
+∀n k. binomial n k + binomial n (k + 1) = binomial (n + 1) (k + 1)
+∀n. (∑k=0..n. (binomial n k) ^ 2) = binomial (2 * n) n
+∀n. (∑k=0..n. k * binomial n k) = n * 2 ^ (n - 1)
+∀A B. finite A ∧ finite B ⟶ card (A × B) = card A * card B
+∀A. finite A ⟶ card (Pow A) = 2 ^ card A
+∀A f. finite A ∧ inj_on f A ⟶ card (f ` A) = card A
+∀A B. finite A ∧ finite B ∧ card A > card B ⟶ (∀f. ¬ inj_on f A)
+∀G. graph G ⟶ (∑v ∈ nodes G. degree G v) = 2 * card (edges G)
+∀G. tree G ⟷ connected G ∧ card (edges G) = card (nodes G) - 1
+∀G. planarity G ⟶ (card (nodes G) - card (edges G) + card (faces G) = 2)
+∀G. bipartite G ⟷ (∀c. cycle c G ⟶ evens (length c))
+∀G. Eulerian G ⟷ connected G ∧ (∀v ∈ nodes G. even (degree G v))
+∀G. tournament G ⟶ (∃p. hamiltonian_path p G)
+∀G. chordal G ⟶ (∃v. simplicial_vertex v G)
+∀G. card (nodes G) ≥ 6 ⟶ (∃u v w. clique {u,v,w} G ∨ independent {u,v,w} G)
+∀G. vertex_connectivity G ≤ edge_connectivity G
+∀G. (∀v ∈ nodes G. degree G v ≥ card (nodes G) / 2) ⟶ hamiltonian G
+∀G. (∀u v. u ≠ v ∧ ¬ edge G u v ⟶ degree G u + degree G v ≥ card (nodes G)) ⟶ hamiltonian G
+∀G. directed_graph G ⟶ (∃s t. max_flow s t G = min_cut s t G)
+∀M. matroid M ⟶ (∀I1 I2. independent I1 M ∧ independent I2 M ∧ card I1 < card I2 ⟶ (∃x ∈ I2 - I1. independent (insert x I1) M))
+∀M. matroid M ⟶ (∀B1 B2. basis B1 M ∧ basis B2 M ⟶ card B1 = card B2)
+∀G. graph G ⟶ (∀k. chromatic_number G ≤ max_degree G + 1)
+∀G. acyclic G ⟶ card (edges G) ≤ card (nodes G) - 1
+∀G. strongly_connected G ⟷ (∀u v ∈ nodes G. path u v G ∧ path v u G)
+∀G. perfect_graph G ⟷ (∀H. induced_subgraph H G ⟶ chromatic_number H = clique_number H)
+∀G. planar G ⟶ ¬ (has_minor G K5 ∨ has_minor G K33)
+∀G. card (edges G) > card (nodes G) * (card (nodes G) - 1) / 2 ⟶ False
+∀t. is_rbt t ⟶ (∀s. is_rbt (rbt_insert s t))
+∀t. is_rbt t ⟶ (∀s. is_rbt (rbt_delete s t))
+∀xs. sort xs = insertion_sort xs
+∀xs. heapify xs ⟶ is_heap (heapify xs)
+∀t. avl_tree t ⟶ (∀x. avl_tree (avl_insert x t))
+∀t. avl_tree t ⟶ (∀x. avl_tree (avl_delete x t))
+∀p q. equiv A r ⟶ (x, y) ∈ r ⟶ r `` {x} = r `` {y}
+∀f. monotone f ⟶ lfp f = (⋂{A. f A ⊆ A})
+∀f. monotone f ⟶ gfp f = (⋃{A. A ⊆ f A})
+∀r. well_founded r ⟶ (∀P. (∀x. (∀y. (y, x) ∈ r ⟶ P y) ⟶ P x) ⟶ (∀x. P x))
+∀xs ys. length (zip xs ys) = min (length xs) (length ys)
+∀xs. foldr f xs s = foldl (λx y. f y x) s (reverse xs)
+∀f xs. map f (reverse xs) = reverse (map f xs)
+∀xs. sublists (xs) = Pow (set xs)
+∀t. bst t ⟶ (∀x. member x t ⟷ x ∈ set_tree t)
+∀r. transitive r ∧ reflexive r ⟶ preorder r
+∀r. partial_order r ∧ finite (carrier r) ⟶ (∃x. maximal_element x r)
+∀A B. countable A ∧ countable B ⟶ countable (A × B)
+∀A. ¬ (∃f. surj_on f A (Pow A))
+∀A. infinite A ⟷ (∃B. B ⊂ A ∧ (∃f. bijection f A B))

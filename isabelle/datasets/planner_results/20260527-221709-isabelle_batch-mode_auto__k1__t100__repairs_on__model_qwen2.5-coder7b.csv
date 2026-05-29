@@ -1,0 +1,5 @@
+goal,success,elapsed_s,mode,model,outline_chars,fills,failed_holes,had_sorry,verified_ok
+"{""goal"": ""rev (rev xs) = xs"", ""suite"": ""lists"", ""theory"": ""Scratch"", ""outline"": ""sorry""}",False,129.7359,auto,qwen2.5-coder:7b,0,0,0,False,True
+"{""goal"": ""length (xs @ ys) = length xs + length ys"", ""suite"": ""lists"", ""theory"": ""Scratch"", ""outline"": ""sorry""}",False,124.1314,auto,qwen2.5-coder:7b,242,0,0,True,True
+"{""goal"": ""sum_list (xs @ ys) = sum_list xs + sum_list ys"", ""suite"": ""lists"", ""theory"": ""Scratch"", ""outline"": ""sorry""}",False,132.2498,auto,qwen2.5-coder:7b,0,0,0,False,True
+"{""goal"": ""map f (xs @ ys) = map f xs @ map f ys"", ""suite"": ""lists"", ""theory"": ""Scratch"", ""outline"": ""sorry""}",False,122.4391,auto,qwen2.5-coder:7b,236,0,0,True,True
